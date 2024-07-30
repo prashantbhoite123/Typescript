@@ -18,3 +18,5 @@ let thisValue: collection = {
 }
 
 console.log(thisValue.name)
+  
+  
