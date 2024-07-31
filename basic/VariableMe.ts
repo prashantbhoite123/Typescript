@@ -1,4 +1,11 @@
 
-let greeting: string = "hello prashant"
 
-console.log(greeting);
+let hero;
+
+function getHero() {
+    return "hello world"
+}
+
+
+hero  = getHero
+export { }  
