@@ -15,8 +15,15 @@
 //   return { name: "javascript", price: 399 }
 // }
 
+type User = {
+  name: string
+  email: string
+  isActive: boolean
+}
 
-
+function createUser(user: User): void {
+  return
+}
 
 
 export {}
