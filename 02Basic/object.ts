@@ -15,15 +15,49 @@
 //   return { name: "javascript", price: 399 }
 // }
 
+// type User = {
+//   name: string
+//   email: string
+//   isActive: boolean
+// }
+
+// function createUser(user: User): void {
+//   return
+// }
+
+
 type User = {
-  name: string
-  email: string
-  isActive: boolean
+  readonly _id:string,
+  name: string,
+  email: string,
+  isActive: boolean,
+  creadCardDetail:number
 }
 
-function createUser(user: User): void {
-  return
+
+let myUser: User = {
+  _id:"jgsfdjkdshf sd",
+  name: "prashant",
+  email: "prashant@gmail.com",
+  isActive: true,
+  creadCardDetail:908560456
+}
+
+myUser.name = "Vishal"
+myUser.email = "V@gmail.com"
+
+type cardNumber = {
+  cardNumber:string
 }
 
 
-export {}
+type cardDate = {
+  cardDate:string
+}
+
+type cardDetail = cardNumber & cardDate & {
+  cvv:number
+}
+
+export { }
+
