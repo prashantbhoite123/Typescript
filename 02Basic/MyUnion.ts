@@ -22,8 +22,9 @@
 // hitesh = {}
 
 
-function getDbId(id: number | string) {
-return id
-}
+// function getDbId(id: number | string) {
+// return id
+// }
 
-getDbId({ id: 845645 })
+// getDbId({ id: 845645 })
+
