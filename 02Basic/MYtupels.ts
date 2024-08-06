@@ -1,10 +1,24 @@
 
-let tUser: [string, number, boolean] 
 
-tUser = ["prashant", 84379034, true]
+// const user: (string | number)[] = [1, 'pb']
 
-type Userf = [string, number]
+let tuser:[string,number,boolean]
 
 
-const newUser: Userf("hlll", 79458);
+
+tuser = ['hc', 131, true]
+
+
+let rgb: [number, number, number] = [255, 123, 0.5]
+
+type User = [number, string]
+
+const newUser: User = [112, "peaskfdjg#kdsfkdsj"]
+
+newUser[1] = "hc.com"
+newUser.push(true);
+ 
+
+
+export { }
 
